@@ -1,0 +1,130 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente moderna y legible */
+    margin: 20px; /* Márgenes exteriores para separar contenido de los bordes */
+    padding: 10px; /* Espaciado interior */
+    background-color: #f8f9fa; /* Color de fondo claro */
+    color: #333; /* Color del texto principal */
+}
+
+/* Estilos del encabezado */
+header {
+    text-align: center; /* Centra el contenido */
+    background: linear-gradient(45deg, #1c5311, #18bd02); /* Fondo con degradado */
+    color: white; /* Texto en color blanco */
+    padding: 30px; /* Espaciado dentro del encabezado */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
+}
+
+/* Tamaño y espaciado del título */
+h1 {
+    font-size: 2.5em; /* Tamaño de fuente grande */
+    margin-bottom: 10px; /* Separación inferior */
+}
+
+/* Estilos para párrafos dentro del encabezado */
+p {
+    font-size: 1.2em; /* Tamaño de fuente ligeramente mayor */
+}
+
+/* Estilos del menú de navegación */
+nav {
+    position: fixed; /* Fija el menú en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa todo el ancho */
+    background: #347c37; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno */
+    text-align: center; /* Centrado de elementos */
+    z-index: 1000; /* Garantiza que el menú esté sobre otros elementos */
+}
+
+/* Estilos para la lista de navegación */
+nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina relleno interno */
+    margin: 0; /* Ajusta el margen exterior */
+}
+
+/* Estilos para los elementos de la lista */
+nav ul li {
+    display: inline; /* Muestra los elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+/* Estilos para los enlaces de navegación */
+nav ul li a {
+    text-decoration: none; /* Elimina subrayado */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Fuente en negrita */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+/* Cambio de color al pasar el cursor sobre los enlaces */
+nav ul li a:hover {
+    color: #000000; /* Cambia a negro */
+}
+
+/* Estilos de las secciones */
+section {
+    background: white; /* Fondo blanco */
+    margin: 15px 0; /* Espaciado entre secciones */
+    padding: 20px; /* Relleno interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+}
+
+/* Estilos para los enlaces de contacto */
+.icono {
+    display: inline-block; /* Asegura que los enlaces sean visibles en línea */
+    margin-top: 10px; /* Espaciado superior */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    background: #0f7e18; /* Color de fondo */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Cambio de estilo al pasar el cursor */
+.icono:hover {
+    background: #043006; /* Cambio de color */
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+/* Estilos del botón */
+button {
+    display: block; /* Botón en bloque */
+    margin: 20px auto; /* Centra el botón horizontalmente */
+    padding: 12px 20px; /* Espaciado interno */
+    font-size: 1.2em; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: white; /* Color del texto */
+    background: linear-gradient(45deg, #0b9417, #074b07); /* Degradado de fondo */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra cursor de mano */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background: linear-gradient(45deg, #0b9417, #074b07); /* Cambio de degradado */
+    transform: scale(1.05); /* Efecto de ampliación */
+}
+
+/* Estilos para el modo oscuro */
+.oscuro {
+    background-color: #333; /* Fondo oscuro */
+    color: white; /* Texto en blanco */
+}
+
+/* Ajuste de las secciones en modo oscuro */
+.oscuro section {
+    background-color: #444; /* Fondo más oscuro */
+    color: white; /* Texto en blanco */
+    border: 1px solid #666; /* Bordes sutiles */
+}
